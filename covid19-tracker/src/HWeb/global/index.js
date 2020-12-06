@@ -1,13 +1,15 @@
 import React from 'react'
+import Dummy1 from './Dummy1'
 
-const global = () => {
+const Global = () => {
     return (
         <div>
-            <h1>
-                Data global
-            </h1>
+           <h1>
+               Data global 
+               <Dummy1/>
+            </h1> 
         </div>
     )
 }
 
-export default global;
+export default Global;

@@ -1,5 +1,5 @@
-import global from './global'
-import indo from './indo'
-import province from './province'
+import Global from './global'
+import Indo from './indo'
+import Province from './province'
 
-export {global, indo, province}
+export {Global, Indo, Province}
